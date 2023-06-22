@@ -50,7 +50,7 @@ class Handler:
 
 
 builder = Gtk.Builder()
-builder.add_from_file(r"/home/lennart/Dokumente/Python/eLiquid/eLiquid.glade")
+builder.add_from_file(r"eLiquid.glade")
 builder.connect_signals(Handler())
 window = builder.get_object("window_main")
 window.show_all()
