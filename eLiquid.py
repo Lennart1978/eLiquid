@@ -1,6 +1,5 @@
 #!/usr/bin/python3
 import gi
-#Gtk 3 import
 gi.require_version("Gtk","3.0")
 from gi.repository import Gtk
 
