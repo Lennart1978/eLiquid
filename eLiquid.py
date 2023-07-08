@@ -55,6 +55,3 @@ builder.connect_signals(Handler())
 window = builder.get_object("window_main")
 window.show_all()
 Gtk.main()
-
-
-
